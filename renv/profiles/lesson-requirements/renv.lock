@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.3.1",
+    "Version": "4.3.0",
     "Repositories": [
       {
         "Name": "carpentries",
@@ -81,38 +81,19 @@
     },
     "cowsay": {
       "Package": "cowsay",
-      "Version": "0.8.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "crayon",
-        "fortunes",
-        "rmsfact"
-      ],
-      "Hash": "d0a2ee8c742d4cf1d7500bb709b9c8ac"
-    },
-    "crayon": {
-      "Package": "crayon",
-      "Version": "1.5.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "grDevices",
-        "methods",
-        "utils"
-      ],
-      "Hash": "e8a1e41acf02548751f45c718d55aa6a"
+      "Version": "0.8.0",
+      "Source": "Repository"
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.33",
+      "Version": "0.6.32",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "b18a9cf3c003977b0cc49d5e76ebe48d"
+      "Hash": "011ce1464a4716c488f4fc649c3d4d50"
     },
     "ellipsis": {
       "Package": "ellipsis",
@@ -154,16 +135,6 @@
         "rlang"
       ],
       "Hash": "1e22b8cabbad1eae951a75e9f8b52378"
-    },
-    "fortunes": {
-      "Package": "fortunes",
-      "Version": "1.5-4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "utils"
-      ],
-      "Hash": "d031a520bc2c989180c772dbc6851088"
     },
     "fs": {
       "Package": "fs",
@@ -305,6 +276,16 @@
       ],
       "Hash": "5e3c5dc0b071b21fa128676560dbe94d"
     },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.17.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "4543b8cd233ae25c6aba8548be9e747e"
+    },
     "rlang": {
       "Package": "rlang",
       "Version": "1.1.1",
@@ -340,13 +321,6 @@
       ],
       "Hash": "79f14e53725f28900d936f692bfdd69f"
     },
-    "rmsfact": {
-      "Package": "rmsfact",
-      "Version": "0.0.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "9e53733ec853fb8e5f2c74420c66e10b"
-    },
     "sass": {
       "Package": "sass",
       "Version": "0.4.6",
@@ -366,13 +340,17 @@
       "Version": "1.7.12",
       "Source": "Repository",
       "Repository": "RSPM",
+      "RemoteType": "repository",
+      "RemoteUrl": "https://github.com/gagolews/stringi",
+      "RemoteRef": "v1.7.12",
+      "RemoteSha": "e4cf3176bc3943e6c477885be3445cbbd7d4bab6",
       "Requirements": [
         "R",
         "stats",
         "tools",
         "utils"
       ],
-      "Hash": "ca8bd84263c77310739d2cf64d84d7c9"
+      "Hash": "832ef2a01603f8f5b4f2af024080d5d9"
     },
     "stringr": {
       "Package": "stringr",
