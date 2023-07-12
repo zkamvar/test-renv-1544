@@ -17,6 +17,33 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+```r
+library("cowsay")
+say("Hello??  WORLD?????")
+```
+
+```{.output}
+
+ -------------- 
+Hello??  WORLD????? 
+ --------------
+    \
+      \
+        \
+            |\___/|
+          ==) ^Y^ (==
+            \  ^  /
+             )=*=(
+            /     \
+            |     |
+           /| | | |\
+           \| | |_|/\
+      jgs  //_// ___/
+               \_)
+  
+```
+
 ## Introduction
 
 This is a lesson created via The Carpentries Workbench. It is written in
