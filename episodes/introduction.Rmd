@@ -17,6 +17,11 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+```{r say}
+library("cowsay")
+say("Hello??  WORLD?????")
+```
+
 ## Introduction
 
 This is a lesson created via The Carpentries Workbench. It is written in
