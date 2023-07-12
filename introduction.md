@@ -19,6 +19,14 @@ exercises: 2
 
 
 ```r
+packageVersion("cowsay")
+```
+
+```{.output}
+[1] '0.8.2'
+```
+
+```r
 library("cowsay")
 say("Hello??  WORLD?????")
 ```
