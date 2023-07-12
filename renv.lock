@@ -79,6 +79,11 @@
       ],
       "Hash": "89e6d8219950eac806ae0c489052048a"
     },
+    "cowsay": {
+      "Package": "cowsay",
+      "Version": "0.8.0",
+      "Source": "Repository"
+    },
     "digest": {
       "Package": "digest",
       "Version": "0.6.32",
