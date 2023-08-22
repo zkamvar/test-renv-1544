@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.3.0",
+    "Version": "4.3.1",
     "Repositories": [
       {
         "Name": "carpentries",
@@ -82,7 +82,26 @@
     "cowsay": {
       "Package": "cowsay",
       "Version": "0.8.0",
-      "Source": "Repository"
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "crayon",
+        "fortunes",
+        "rmsfact"
+      ],
+      "Hash": "3c5fdcb12517c29280e6e66f77f77803"
+    },
+    "crayon": {
+      "Package": "crayon",
+      "Version": "1.5.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "grDevices",
+        "methods",
+        "utils"
+      ],
+      "Hash": "e8a1e41acf02548751f45c718d55aa6a"
     },
     "digest": {
       "Package": "digest",
@@ -135,6 +154,16 @@
         "rlang"
       ],
       "Hash": "1e22b8cabbad1eae951a75e9f8b52378"
+    },
+    "fortunes": {
+      "Package": "fortunes",
+      "Version": "1.5-4",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "d031a520bc2c989180c772dbc6851088"
     },
     "fs": {
       "Package": "fs",
@@ -321,6 +350,13 @@
       ],
       "Hash": "79f14e53725f28900d936f692bfdd69f"
     },
+    "rmsfact": {
+      "Package": "rmsfact",
+      "Version": "0.0.3",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "9e53733ec853fb8e5f2c74420c66e10b"
+    },
     "sass": {
       "Package": "sass",
       "Version": "0.4.6",
@@ -340,17 +376,13 @@
       "Version": "1.7.12",
       "Source": "Repository",
       "Repository": "RSPM",
-      "RemoteType": "repository",
-      "RemoteUrl": "https://github.com/gagolews/stringi",
-      "RemoteRef": "v1.7.12",
-      "RemoteSha": "e4cf3176bc3943e6c477885be3445cbbd7d4bab6",
       "Requirements": [
         "R",
         "stats",
         "tools",
         "utils"
       ],
-      "Hash": "832ef2a01603f8f5b4f2af024080d5d9"
+      "Hash": "ca8bd84263c77310739d2cf64d84d7c9"
     },
     "stringr": {
       "Package": "stringr",
